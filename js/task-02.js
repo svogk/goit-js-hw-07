@@ -1,17 +1,17 @@
-console.log("Задание 2")
+console.log('Задание 2');
 const ingredients = [
-    'Картошка',
-    'Грибы',
-    'Чеснок',
-    'Помидоры',
-    'Зелень',
-    'Приправы',
+  'Картошка',
+  'Грибы',
+  'Чеснок',
+  'Помидоры',
+  'Зелень',
+  'Приправы',
 ];
 
 const linkRef = ingredients.map(ingredient => {
-    const itemRef = document.createElement('li');
-    itemRef.textContent = ingredient;
-    return itemRef;
+  const itemRef = document.createElement('li');
+  itemRef.textContent = ingredient;
+  return itemRef;
 });
 
 const listRef = document.querySelector('#ingredients');
